@@ -1,0 +1,2 @@
+first click on the new in mysql after that name the database to op
+  then click on import and select the file in database file and import and run it

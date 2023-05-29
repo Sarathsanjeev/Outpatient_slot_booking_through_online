@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* li {
+    list-style: none;
+} */
+
+.body{
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.bg-img1{
+    background-image: url("assets/img2.jpg");
+    height: 500px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+}
+    /*HAMBURGER MENU*/
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+        /* APPLYING MEDIA QUERIES */
+@media (max-width: 768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: teal;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px;
+    }
+.menu li:hover{
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+
+}
+.menu li+li{
+    margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+    display: block;
+}
+.hamburger{
+    display: block;
+}
+.dropdown{
+    left: 50px;
+    top: 30px;
+    transform: translateX(35%);
+}
+.dropdown li:hover{
+    background-color: #4c9e9e;
+}
+}
+
+.unique-pro1 {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+@keyframes san{
+    0%{
+        
+         left: -2000px;
+
+         transition: 0s ease-in-out;
+    }
+    100%{
+        left: 0;
+        transition: 1s ease-in-out;
+        
+    }
+}
+
+
+
+@keyframes tex1{
+    0%{
+        
+         left: -2000px;
+    }
+    100%{
+        left: 30%;
+        
+    }
+}
+
+
+@keyframes tex2{
+    0%{
+        
+         left: -2000px;
+    }
+    100%{
+        left: 30%;
+        
+    }
+}
+
+.img-cont{
+    width: 150px;
+}
+
+.img-t1{
+    background-color: white;
+    padding: 4em;
+    font-weight: 100;
+}
+
+.img-cont1{
+    width: 150px;
+}
+
+.lin-roww{
+    border-bottom: #4c9e9e solid;
+}
+
+.appoint{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.team-img1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img3{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img4{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img4{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img4{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img5{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.team-img6{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #6a64f1;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
